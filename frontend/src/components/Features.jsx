@@ -1,4 +1,4 @@
-export default function Features() {
+export default () => {
   const features = [
     {
       icon: '🎯',
@@ -24,6 +24,8 @@ export default function Features() {
       icon: '🌐',
       title: '315+ Colleges',
       description: 'Coverage of all major engineering colleges in Maharashtra recognized by DTE.'
+    },
+  ];
     },
     {
       icon: '💰',

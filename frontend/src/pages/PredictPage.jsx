@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Predictor from '../components/Predictor';
 
-export default function PredictPage() {
+const PredictPage = () => {
   const navigate = useNavigate();
 
   useEffect(() => {

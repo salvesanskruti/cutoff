@@ -5,7 +5,7 @@ import { healthService } from '../services/api';
  * Fixed bottom-right pill that shows live backend connectivity.
  * Polls /api/health every 30 seconds.
  */
-export default function StatusIndicator() {
+const StatusIndicator = () => {
   const [status, setStatus] = useState('checking'); // 'checking' | 'ok' | 'err'
   const [label, setLabel] = useState('Connecting…');
 

@@ -1,4 +1,4 @@
-export default function HowItWorks() {
+const HowItWorks = () => {
   return (
     <section className="sec" id="how">
       <div className="wrap">

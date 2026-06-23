@@ -34,6 +34,8 @@ router.get('/categories', async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 });
+  }
+});
 
 /**
  * GET /api/filters/seat-types

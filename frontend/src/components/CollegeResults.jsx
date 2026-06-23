@@ -20,7 +20,7 @@ function openCollegeWebsite(college) {
   }
 }
 
-export default function CollegeResults({ results, onCollegeClick, compareSelected = [], onToggleCompare }) {
+const CollegeResults = ({ results, onCollegeClick, compareSelected = [], onToggleCompare }) => {
   const [expandedColleges, setExpandedColleges] = useState(new Set());
   const [filterChance, setFilterChance] = useState(null);
 

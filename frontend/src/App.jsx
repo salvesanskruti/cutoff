@@ -18,7 +18,7 @@ import trendsData from './data/cutoff_trends.json';
 
 
 // ── Landing page ──
-function LandingPage() {
+const LandingPage = () => {
   const pageRef = useRef(null);
   useEffect(() => {
     const observer = new IntersectionObserver(

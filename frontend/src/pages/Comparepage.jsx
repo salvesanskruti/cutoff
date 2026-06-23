@@ -25,6 +25,7 @@ function getTrend(vals) {
   if (diff < -1.5) return 'down';
   return 'stable';
 }
+}
 
 function TrendBadge({ trend }) {
   const cfg = {
