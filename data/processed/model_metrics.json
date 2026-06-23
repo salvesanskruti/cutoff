@@ -1,0 +1,21 @@
+{
+  "cv_mae_mean": 0.8344,
+  "cv_mae_std": 0.0256,
+  "cv_r2_mean": 0.9983,
+  "cv_r2_std": 0.0001,
+  "train_rows": 6621,
+  "features": [
+    "score_2022",
+    "score_2023",
+    "delta_22_23",
+    "avg_delta",
+    "trend_slope",
+    "score_3yr_mean",
+    "score_3yr_std",
+    "Branch Name_enc",
+    "Seat Type_enc",
+    "Category_enc",
+    "Category_Group_enc",
+    "Is State Level"
+  ]
+}
