@@ -26,7 +26,7 @@ dotenv.config();
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/college_predictor';
 const DATA_DIR = path.join(process.cwd(), '..', 'data', 'processed');
 
-async function seedDatabase() {
+const seedDatabase = async () => {
   try {
     console.log('🔗 Connecting to MongoDB...');
     await mongoose.connect(MONGO_URI);

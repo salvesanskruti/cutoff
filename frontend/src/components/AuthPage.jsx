@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function AuthPage({ onAuthSuccess }) {
+export default ({ onAuthSuccess }) => {
   const [isLogin, setIsLogin] = useState(true);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');

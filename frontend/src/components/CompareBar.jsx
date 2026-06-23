@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
  *   onRemove: (collegeId) => void
  *   onClear: () => void
  */
-export default function CompareBar({ selected, onRemove, onClear }) {
+const CompareBar = ({ selected, onRemove, onClear }) => {
   const navigate = useNavigate();
 
   if (!selected || selected.length === 0) return null;

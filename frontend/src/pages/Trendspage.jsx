@@ -20,7 +20,7 @@ const LINE_COLORS = [
   '#86efac','#c4b5fd','#fda4af','#93c5fd','#fcd34d','#6ee7b7',
 ];
 
-function getTrend(vals) {
+const getTrend = (vals) => {
   const d = vals.filter(v => v != null);
   if (d.length < 2) return 'neutral';
   const diff = d[d.length-1] - d[0];
